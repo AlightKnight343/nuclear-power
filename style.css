@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&family=Source+Code+Pro:wght@300;400;500;600;800&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Code Pro';
+    background-color: #111111;
+    color: #66ff66
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Silkscreen';
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    border-right: .15em solid rgb(0, 255, 221);
+}
+
+h3{
+    margin-top: 60px;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 700;
+    color: #fff
+}
+p{
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+.glow { text-shadow: 0 0 10px rgb(43, 252, 15); }
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 255, 221); }
+  }
+  
